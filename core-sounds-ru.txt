@@ -1,311 +1,312 @@
 ; Core Asterisk Sounds in Russian
-agent-alreadyon: That agent is already logged on.  Please enter your agent number followed by the pound key.
-agent-incorrect: Login incorrect.  Please enter your agent number followed by the pound key.
-agent-loggedoff: Agent Logged off.
-agent-loginok: Agent logged in.
-agent-newlocation: Please enter a new extension, followed by pound.
-agent-pass: Please enter your password followed by the pound key.
-agent-user: Agent login.  Please enter your agent number followed by the pound key.
+agent-alreadyon: Данный оператор уже зарегистрирован. Введите номер оператора и нажмите решетку
+agent-incorrect: Ошибка регистрации. Введите номер оператора и нажмите решетку.
+agent-loggedoff: Регистрация оператора удалена.
+agent-loginok: Оператор зарегистрирован.
+agent-newlocation: Наберите новый номер, завершив ввод клавишей решётка. Или просто нажмите решётку для немедленного соединения.
+agent-pass: Введите  пароль  и нажмите решетку.
+agent-user: Регистрация оператора. Введите номер и нажмите решетку.
 ascending-2tone: [ascending tones]
-auth-incorrect: Password incorrect.  Please enter your password followed by the pound key.
-auth-thankyou: Thank you.
+auth-incorrect: Пароль неверен. Введите пароль и нажмите решетку.
+auth-thankyou: Спасибо.
 beeperr: [this is an error beep tone]
 beep: [this is a simple beep tone]
-conf-adminmenu-162: Please press 1 to mute or unmute yourself, 2 to lock or unlock the conference, 3 to eject the last user, 4 or 6 to decrease or increase the conference volume, 5 to extend the conference, 7 or 9 to decrease or increase your volume, or 8 to exit.
-conf-adminmenu: Please press 1 to mute or unmute yourself, 2 to lock or unlock the conference, 3 to eject the last user, 4 or 6 to decrease or increase the conference volume, 7 or 9 to decrease or increase your volume, or 8 to exit.
-conf-enteringno: You are entering conference number
-conf-errormenu: Invalid Choice
-conf-extended: The conference has been extended.
-conf-getchannel: Please enter the channel number followed by the pound key.
-conf-getconfno: Please enter your conference number followed by the pound key.
-conf-getpin: Please enter the conference pin number.
-conf-hasjoin: is now in the conference.
-conf-hasleft: has left the conference.
-conf-invalidpin: That pin is invalid for this conference.
-conf-invalid: That is not a valid conference number.  Please try again.
-conf-kicked: You have been kicked from this conference
-conf-leaderhasleft: The leader has left the conference.
-conf-lockednow: The conference is now locked
-conf-locked: This conference is locked!
-conf-muted: You are now muted
-conf-noempty: No empty conferences currently exist.
-conf-nonextended: The conference cannot be extended.
-conf-now-muted: The conference is now muted.
-conf-now-recording: The conference is now being recorded.
-conf-now-unmuted: The conference is now unmuted.
-conf-onlyone: There is currently one other participant in the conference.
-conf-onlyperson: You are currently the only person in this conference.
-conf-otherinparty: other participants in the conference
-conf-placeintoconf: You will now be placed into the conference.
-conf-roll-callcomplete: Roll call complete.
-conf-thereare: There are currently
-conf-unlockednow: The conference is now unlocked
-conf-unmuted: You are now unmuted
-conf-usermenu-162: Please press 1 to mute or unmute yourself, 4 or 6 to decrease or increase the conference volume, 5 to extend the conference, 7 or 9 to decrease or increase your volume, or 8 to exit.
-conf-usermenu: Please press 1 to mute or unmute yourself, 4 or 6 to decrease or increase the conference volume, 7 or 9 to decrease or increase your volume, or 8 to exit.
-conf-userswilljoin: users will join the conference.
-conf-userwilljoin: user will join the conference.
-conf-waitforleader: The conference will begin when the leader arrives.
 confbridge-join: <beep ascending>
-confbridge-leave: <beep descending>
-demo-abouttotry: I am about to attempt an Inter-Asterisk Exchange connection to a demonstration server located at Digium.  In order for this to work you must already be connected to the Internet.  Please wait a moment while I attempt to make the connection.
-demo-congrats: Congratulations.  You have successfully installed and executed the Asterisk open source PBX.  You have also installed a set of sample sounds and configuration files that should help you to get started.  Like a normal PBX you will navigate this demonstration by dialing digits.  If you are using a console channel driver instead of a real phone you can use the dial, answer, and hang up commands to simulate the actions of a standard telephone.
-demo-echodone: The echo test has been completed.
-demo-echotest: You are about to enter an echo test.  In this mode everything you say will be repeated back to you just as soon as it is received.  The purpose of this test is to give you an audible sense of the latency between you and the machine that is running the echo test application.  You may end the test by hanging up or by pressing the pound key.
-demo-enterkeywords: Please enter one or more keywords separated by * and then press the pound key.
-demo-instruct: If you would like to learn more technical information about Asterisk dial 2 now.  If you'd like to test out the voice over IP capabilities of Asterisk you can dial 500 to attempt an Inter-Asterisk Exchange or IAX connection to a demonstration server at Digium.  In order for this test to work you will need to be connected to the Internet and have at least a 28.8 kilobit modem.  To execute an echo test dial 600.  This test is most useful when you have connected to this Asterisk server from a remote location.  The sample configuration also has a single user with extension 1234 and password 4242.  That user is configured to ring the console when their extension is dialed.  If you dial 1234 you can try to ring the console.  If the console is busy or unavailable you will be given the option to leave voicemail.  To check voice mail for the user dial extension 8500 to enter the voicemail system.  Finally,  you can press the pound key to disconnect from the PBX.
-demo-moreinfo: Asterisk is an Open Source full-featured PBX and IVR platform that runs on the linux operating system.  For more information, visit www.asterisk.org.
-demo-nogo: I am afraid I was unable to create a connection to the Digium demonstration Asterisk server.  You may find some helpful debugging information on the Asterisk console.
-demo-nomatch: I'm sorry there are no matches for those keywords
-demo-thanks: Goodbye.  Thank you for trying out the Asterisk Open Source PBX.
+confbridge-leave: <beep decending>
+conf-adminmenu-162: Нажмите 1, чтобы включить или выключить свой микрофон, 2 - чтобы заблокировать или разблокировать конференцию, 3 - чтобы удалить из конференции последнего вошедшего, 4 или 6 - для уменьшения или увеличения уровня громкости звука, 5 - чтобы расширить конференцию, 7 или 9 - для уменьшения или увеличения громкости Вашего голоса, или 8 - для выхода из конференции
+conf-adminmenu: Нажмите 1 - для включения или отключения вашего микрофона. 2 - для блокирования или разблокирования конференции. 3 - для отключения последнего абонента. 4 или 6 - для уменьшения или увеличения громкости звука. 7 или 9 - для уменьшения или увеличения чувствительности микрофона. Или 8 - для выхода.
+conf-enteringno: Вы заходите в конференцию
+conf-errormenu: Неверный выбор
+conf-extended: Конференция была расширена
+conf-getchannel: Введите номер канала и затем решетку.
+conf-getconfno: Введите номер конференции и затем решетку
+conf-getpin: Введите пароль конференции
+conf-hasjoin: зашел в конференцию
+conf-hasleft: вышел из конференции
+conf-invalidpin: Пароль неверен.
+conf-invalid: Недействительный номер конференции, попробуйте еще раз.
+conf-kicked: Вас только что удалили из конференции. 
+conf-leaderhasleft: Руководитель покинул конференцию.
+conf-lockednow: Эта конференция теперь закрыта.
+conf-locked: Эта конференция закрыта.
+conf-muted: Ваш микрофон выключен. 
+conf-noempty: Пустых конференций не существует.
+conf-nonextended: Конференция не может быть расширена
+conf-now-muted: Звук в конференции выключен
+conf-now-recording: Конференция записывается
+conf-now-unmuted: Звук в конференции включен
+conf-onlyone: В конференции находится один участник.
+conf-onlyperson: Вы являетесь первым участником конференции
+conf-otherinparty: других участников.
+conf-placeintoconf: Сейчас Вы зайдете в конференцию. 
+conf-roll-callcomplete: Воспроизведение списка участников закончено
+conf-thereare: Сейчас в конференции находится
+conf-unlockednow: Эта конференция теперь открыта.
+conf-unmuted: Ваш микрофон включен. 
+conf-usermenu-162: Нажмите 1, чтобы включить или выключить свой микрофон, 2 - чтобы заблокировать или разблокировать конференцию, 3 - чтобы удалить из конференции последнего вошедшего, 4 или 6 - для уменьшения или увеличения уровня громкости звука, 5 - чтобы расширить конференцию, 7 или 9 - для уменьшения или увеличения громкости Вашего голоса, или 8 - для выхода из конференции
+conf-usermenu: Нажмите 1 для включения или выключения микрофона, 4 или 6 для уменьшения или увеличения уровня громкости конференции, 7 или 9 для уменьшения или увеличения уровня Вашей громкости, или 8 для выхода из конференции 
+conf-userswilljoin: пользователей присоединится к конференции.
+conf-userwilljoin: пользователь присоединится к конференции
+conf-waitforleader: Конференция начнётся после прихода её инициатора.
+demo-abouttotry: Сейчас будет предпринята попытка подключения телефонного узла интер-астериск к демонстрационному серверу, расположенному в Дигиум. Для начала работы, вам необходимо подключиться к интернет. Пожалуйста, подождите, осуществляется соединение.
+demo-congrats: Поздравляем! Вы закончили установку и выполнение программы ай-пи телефонной станции «Астериск». Вы также установили набор типовых звуков, и конфигурационных файлов, которые помогут вам начать работу. Вы сможете перемещаться по данной демонстрации при помощи пронумерованных кнопок - как и в любой обычной телефонной станции. Если вместо обычного телефонного аппарата вы используете программу - вы можете пользоваться теми же командами набора номера, ответа на вызов, окончания вызова, как и на обычном телефоне.
+demo-echodone: «Эхо-тест» завершён.
+demo-echotest: Вы переключаетесь в режим «эхо-теста».Чтобы завршить «эхо-тест» - повесьте трубку или нажмите клавишу «решётка». 
+demo-enterkeywords: Введите одно или несколько ключевых слов, разделив их между собой звёздочкой. И затем нажмите клавишу «решётка».
+demo-instruct: Если вы хотите получить более детальную техническую информацию об Астериск, нажмите 2. Вы также можете протестировать возможности Астериск, набрав 500. В этом случае произойдёт соединение с демонтрационным сервером Дигиум по IAX протоколу. Для выполнения этого теста Ваш сервер Asterisk должен быть подключен к сети Интернет на скорости не ниже 28,8 килобит в секунду. Кроме того, у вас есть возможность запустить "эхо-тест". Для этого - наберите 600. "Эхо-тест" поможет оценить на слух величину звуковой задержки в системе. Функция особо полезна, если вы подключены к этому Астериск-серверу из удаленной точки посредством сети Интернет. Также в данной демонстрационной конфигурации создан пользователь с номером 1234 и паролем 4242. При звонке на данный номер - вызов адресуется в консоль. Если консоль занята или недоступна, вам будет предложено оставить голосовое сообщение. В дальнейшем, вы сможете прослушать это сообщение набрав 8500 - для соединения с системой голосовой почты. Наконец, вы можете нажать клавишу «решетка» и отключиться от АТС.
+demo-moreinfo: Данное сообщение пока не записано.
+demo-nogo: Подключение к демонстрационному серверу «Астериск», расположенному в Дигиум, не осуществилось. Вы можете найти полезную информацию об устранении ошибок на панели управления вашего сервера «Астериск». 
+demo-nomatch: К сожалению, не найдено соответствие для этих ключевых слов.
+demo-thanks: До свидания! Благодарим за пробную эксплуатацию программы ай-пи телефонной станции «Астериск».
 descending-2tone: [descending tones]
-dictate/both_help: press * to toggle pause, press # to enter a new dictation filename
-dictate/enter_filename: Enter a numeric dictation filename followed by # or just # to exit
-dictate/forhelp: press 0 for help
-dictate/paused: paused
-dictate/pause: pause
-dictate/playback_mode: playback mode
-dictate/playback: playback
-dictate/play_help: press 1 to switch to record mode, press 2 to toggle fast playback, press 7 to jump backwards, press 8 to jump forwards
-dictate/record_help: press 1 to switch to playback mode, press 8 to truncate the file and start over
-dictate/record_mode: record mode
-dictate/record: record
-dictate/truncating_audio: truncating audio
-digits/0: zero
-digits/10: ten
-digits/11: eleven
-digits/12: twelve
-digits/13: thirteen
-digits/14: fourteen
-digits/15: fifteen
-digits/16: sixteen
-digits/17: seventeen
-digits/18: eighteen
-digits/19: nineteen
-digits/1: one
-digits/20: twenty
-digits/2: two
-digits/30: thirty
-digits/3: three
-digits/40: forty
-digits/4: four
-digits/50: fifty
-digits/5: five
-digits/60: sixty
-digits/6: six
-digits/70: seventy
-digits/7: seven
-digits/80: eighty
-digits/8: eight
-digits/90: ninety
-digits/9: nine
-digits/a-m: A.M.
-digits/at: at
-digits/day-0: Sunday
-digits/day-1: Monday
-digits/day-2: Tuesday
-digits/day-3: Wednesday
-digits/day-4: Thursday
-digits/day-5: Friday
-digits/day-6: Saturday
-digits/dollars: dollars
-digits/h-10: tenth
-digits/h-11: eleventh
-digits/h-12: twelfth
-digits/h-13: thirteenth
-digits/h-14: fourteenth
-digits/h-15: fifteenth
-digits/h-16: sixteenth
-digits/h-17: seventeenth
-digits/h-18: eighteenth
-digits/h-19: nineteenth
-digits/h-1: first
-digits/h-20: twentieth
-digits/h-2: second
-digits/h-30: thirtieth
-digits/h-3: third
-digits/h-40: fourtieth
-digits/h-4: fourth
-digits/h-50: fiftieth
-digits/h-5: fifth
-digits/h-60: sixtieth
-digits/h-6: sixth
-digits/h-70: seventieth
-digits/h-7: seventh
-digits/h-80: eightieth
-digits/h-8: eighth
-digits/h-90: ninetieth
-digits/h-9: ninth
-digits/h-billion: billionth
-digits/h-hundred: hundredth
-digits/h-million: millionth
-digits/h-thousand: thousandth
-digits/hundred: hundred
-digits/million: million
-digits/minus: minus
-digits/mon-0: January
-digits/mon-10: November
-digits/mon-11: December
-digits/mon-1: February
-digits/mon-2: March
-digits/mon-3: April
-digits/mon-4: May
-digits/mon-5: June
-digits/mon-6: July
-digits/mon-7: August
-digits/mon-8: September
-digits/mon-9: October
-digits/oclock: o'clock
-digits/oh: oh
-digits/p-m: P.M.
-digits/pound: pound
-digits/star: star
-digits/thousand: thousand
-digits/today: today
-digits/tomorrow: tomorrow
-digits/yesterday: yesterday
-dir-firstlast: ... letters of your party's first or last name.
-dir-instr: If this is the person you are looking for press 1 now, otherwise please press star now.
-dir-intro-fn: Welcome to the directory.  Please enter the first three letters of your party's first name using your touch tone keypad.  Use the 7 key for Q and the 9 key for Z.
-dir-intro: Welcome to the directory.  Please enter the first three letters of your party's last name using your touch tone keypad.  Use the 7 key for Q and the 9 key for Z.
-dir-last: ... letters of your party's last name.
-dir-multi1: Press ...
-dir-multi2: ... for ...
-dir-multi3: ... extension ...
-dir-multi9: Press 9 for more entries.
-dir-nomatch: No directory entries match your search.
-dir-nomore: There are no more compatible entries in the directory.
-dir-pls-enter: Please enter the first ...
-dir-usingkeypad: ... using your touchtone keypad.  Use the 7 key for Q, and the 9 key for Z.
-dir-welcome: Welcome to the directory
-dollars: dollars
-followme/call-from.wav: incoming call from
-followme/no-recording.wav: you have an incoming call
-followme/options.wav: press 1 to accept this call, or 2 to reject it
-followme/pls-hold-while-try.wav: please hold while I try to locate the person you are calling
-followme/sorry.wav: I'm sorry, but I was unable to locate the person you are calling
-followme/status.wav: the person you are calling is not at their desk; I will try to locate them for you
-hello-world: Hello world.
-hours: hours
-invalid: I am sorry, that's not a valid extension.  Please try again.
-letters/a: a
-letters/ascii123: left brace
-letters/ascii124: pipe
-letters/ascii125: right brace
-letters/ascii126: tilde
-letters/ascii34: quote
-letters/ascii36: dollar sign
-letters/ascii37: percent
-letters/ascii38: ampersand
-letters/ascii39: tick
-letters/ascii40: open parenthesis
-letters/ascii41: close parenthesis
-letters/ascii42: star
-letters/ascii44: comma
-letters/ascii58: colon
-letters/ascii59: semicolon
-letters/ascii60: less than
-letters/ascii62: greater than
-letters/ascii63: question mark
-letters/ascii91: left bracket
-letters/ascii92: backslash
-letters/ascii93: right bracket
-letters/ascii94: caret
-letters/ascii95: underscore
-letters/ascii96: backtick
-letters/asterisk: asterisk
+dictate/both_help: Нажмите звёздочку для включения паузы. Нажмите решётку для ввода нового названия файла записи.
+dictate/enter_filename: Введите название файла записи, состоящее из цифр. И за тем нажмите решётку. Или просто сейчас нажмите решётку для выхода из меню.
+dictate/forhelp: Для справки нажмите ноль.
+dictate/paused: На паузе.
+dictate/pause: Пауза.
+dictate/playback: Воспроизведение.
+dictate/playback_mode: Режим воспроизведения.
+dictate/play_help: Нажмите 1 для включения режима записи. Нажмите 2 для перехода к быстрому воспроизведению. Нажмите 7 для пошагового перехода назад. Нажмите 8 для пошагового перехода вперёд.
+dictate/record: Запись.
+dictate/record_help: Нажмите 1 для перехода в режим воспроизведения. Нажмите 8 для перезаписи.
+dictate/record_mode: Режим записи.
+dictate/truncating_audio: Усечение аудио сигнала.
+digits/0: ноль
+digits/1n: одно
+digits/1: один
+digits/2n: два
+digits/2: два
+digits/3: три
+digits/4: четыре
+digits/5: петь 
+digits/6: шесть 
+digits/7: семь 
+digits/8: восемь 
+digits/9: девять 
+digits/10: десять
+digits/11: одиннадцать 
+digits/12: двенадцать
+digits/13: тринадцать
+digits/14: четырнадцать 
+digits/15: пятнадцать
+digits/16: шестнадцать 
+digits/17: семнадцать
+digits/18: восемнадцать 
+digits/19: девятнадцать
+digits/20: двадцать
+digits/30: тридцать
+digits/40: сорок
+digits/50: пятьдесят
+digits/60: шестьдесят
+digits/70: семьдесят
+digits/80: восемьдесят 
+digits/90: девяносто
+digits/at: в
+digits/a-m: До полудня.
+digits/billion: миллиард
+digits/day-0: воскресенье
+digits/day-1: понедельник
+digits/day-2: вторник
+digits/day-3: среда
+digits/day-4: четверг
+digits/day-5: пятница
+digits/day-6: суббота
+digits/dollars: Долларов.
+digits/hundred: сто
+digits/h-1: первый
+digits/h-2: второй
+digits/h-3: третий 
+digits/h-4: четвертый 
+digits/h-5: пятый 
+digits/h-6: шестой 
+digits/h-7: седьмой 
+digits/h-8: восьмой 
+digits/h-9: девятый 
+digits/h-10: десятый
+digits/h-11: одиннадцатый 
+digits/h-12: двенадцатый 
+digits/h-13: тринадцатый 
+digits/h-14: четырнадцатый 
+digits/h-15: пятнадцатый 
+digits/h-16: шестнадцатый 
+digits/h-17: семнадцатый 
+digits/h-18: восемнадцатый 
+digits/h-19: девятнадцатый 
+digits/h-20: двадцатый 
+digits/h-30: тридцатый 
+digits/h-40: сороковой 
+digits/h-50: пятидесятый 
+digits/h-60: шестидесятый 
+digits/h-70: семидесятый 
+digits/h-80: восьмидесятый 
+digits/h-90: девяностый
+digits/h-billion: Миллиардов
+digits/h-hundred: Сотен
+digits/h-million: Миллиона
+digits/h-thousand: Тысячи 
+digits/million: миллион
+digits/minus: минус
+digits/mon-0: января
+digits/mon-1: февраля
+digits/mon-2: марта
+digits/mon-3: апреля
+digits/mon-4: мая
+digits/mon-5: июня
+digits/mon-6: июля
+digits/mon-7: августа
+digits/mon-8: сентября
+digits/mon-9: октрября
+digits/mon-10: ноября
+digits/mon-11: декабря
+digits/oclock: Часов.
+digits/oh: Ах
+digits/pound: Фунтов.
+digits/p-m: После полудня.
+digits/star: Звёздочка.
+digits/thousand: Тысяча
+digits/today: Сегодня.
+digits/tomorrow: Завтра.
+digits/yesterday: Вчера.
+dir-firstlast: ... буквы из имени или фамилии вашего абонента.
+dir-first: буквы из имени вашего абонента.
+dir-instr: Если вы нашли необходимого человека - нажмите 1. Если нет - нажмите «звёздочку».
+dir-intro-fn: Добро пожаловать в директорию! При помощи клавиатуры введите первые три буквы имени вашего абонента. Используйте клавишу 7 для буквы «Q» и 9 для буквы «Z».
+dir-intro: Добро пожаловать в директорию! При помощи клавиатуры введите первые три буквы фамилии вашего абонента. Используйте клавишу 7 для буквы «Q» и 9 для буквы «Z».
+dir-last: ... Буква из фамилии вашего абонента
+dir-multi1: Нажмите ...
+dir-multi2: ... для ...
+dir-multi3: ... номера ...
+dir-multi9: Нажмите 9 чтобы продолжить список
+dir-nomatch: По вашему запросу не найдено ни одной записи в директории.
+dir-nomore: Других аналогичных записей не существует.
+dir-pls-enter: Пожалуйста, введите первые...
+dir-usingkeypad: ... используйте 7 для Q и 9 для Z
+dir-welcome: Добро пожаловать в директорию
+followme/call-from: Входящий звонок от
+followme/no-recording: Зарегистрирован входящий звонок
+followme/options: Пожалуйста, нажмите 1 для того, чтобы принять звонок, или 2, если вы не хотите его принимать.
+followme/pls-hold-while-try: Пожалуйста, оставайтесь на линии. Происходит соединение
+followme/sorry: Извините, в данный момент соединение невозможно.
+followme/status: Абонент не отвечает. Сейчас система попытается связаться с вызываемым абонентом по альтернативным каналам
+hello-world: Здравствуй, мир.
+hours: часов
+invalid: Ошибочный номер! Попробуйте ещё раз.
+letters/ascii34: Кавычка
+letters/ascii36: доллар 
+letters/ascii37: процент
+letters/ascii38: Амперсанд
+letters/ascii39: Апостроф
+letters/ascii40: Левая скобка
+letters/ascii41: Правая скобка
+letters/ascii42: звездочка
+letters/ascii44: Запятая
+letters/ascii58: Двоеточие
+letters/ascii59: Точка с запятой
+letters/ascii60: Меньше
+letters/ascii62: Больше
+letters/ascii63: Знак вопроса
+letters/ascii91: Левая квадратная скобка
+letters/ascii92: Обратный слэш
+letters/ascii93: Правая квадратная скобка
+letters/ascii94: Циркумфлекс
+letters/ascii95: Подчеркивание
+letters/ascii96: Обратный апостроф
+letters/ascii123: Левая фигурная скобка
+letters/ascii124: Вертикальная черта
+letters/ascii125: Правая фигурная скобка
+letters/ascii126: Тильда
+letters/asterisk: Астериск
 letters/at: at [@]
-letters/b: b
-letters/c: c
-letters/dash: dash [-]
-letters/d: d
-letters/dollar: dollar [$]
-letters/dot: dot [.]
-letters/e: e
-letters/equals: equals [=]
-letters/exclaimation-point: exclaimation-point [!]
-letters/f: f
-letters/g: g
-letters/h: h
-letters/i: i
-letters/j: j
-letters/k: k
-letters/l: l
-letters/m: m
-letters/n: n
-letters/o: o
-letters/plus: plus [+]
-letters/p: p
-letters/q: q
-letters/r: r
-letters/slash: slash [/]
-letters/space: space [ ]
-letters/s: s
-letters/t: t
-letters/u: u
-letters/v: v
+letters/a: a
+letters/b: би
+letters/c: си
+letters/dash: Дефис. [-]
+letters/dollar: Доллар [$]
+letters/dot: Точка [.]
+letters/d: dди
+letters/equals: Равно [=]
+letters/exclaimation-point: Восклицательный знак. [!]
+letters/e: и
+letters/f: эф
+letters/g: джи
+letters/h: Эйч
+letters/i: Ай
+letters/j: Джэй
+letters/k: Кэй
+letters/l: эл
+letters/m: эм
+letters/n: эм
+letters/o: оу
+letters/plus: плюс [+]
+letters/p: пи
+letters/q: кью
+letters/r: ар
+letters/slash: Слэш [/]
+letters/space: Пробел [ ]
+letters/s: эс
+letters/t: ти
+letters/u: ю
+letters/v: ви
 letters/w: w
-letters/x: x
-letters/y: y
-letters/zed: zed
-letters/z: z
-minutes: minutes
-pbx-invalid: I am sorry, that's not a valid extension.  Please try again.
-pbx-invalidpark: I am sorry, there is no call parked on that extension.  Please try again.
-pbx-parkingfailed: Parking attempt failed.
-pbx-transfer: Transfer.
-phonetic/9_p: niner
-phonetic/a_p: alpha
-phonetic/b_p: bravo
-phonetic/c_p: charlie
-phonetic/d_p: delta
-phonetic/e_p: echo
-phonetic/f_p: foxtrot
-phonetic/g_p: golf
-phonetic/h_p: hotel
-phonetic/i_p: india
-phonetic/j_p: juliet
-phonetic/k_p: kilo
-phonetic/l_p: lima
-phonetic/m_p: mike
-phonetic/niner: niner
-phonetic/n_p: november
-phonetic/o_p: oscar
-phonetic/p_p: papa
-phonetic/q_p: quebec
-phonetic/r_p: romeo
-phonetic/s_p: sierra
-phonetic/t_p: tango
-phonetic/u_p: uniform
-phonetic/v_p: victor
-phonetic/w_p: whiskey
-phonetic/x_p: xray
-phonetic/y_p: yankee
-phonetic/z_p: zulu
-privacy-incorrect: I'm sorry, that number is not valid.
-privacy-prompt: Please enter your phone number, starting with the area code.
-privacy-thankyou: Thank you.
-privacy-unident: The party you are trying to reach does not accept unidentified calls.
-priv-callee-options: Dial 1 if you wish this caller to reach you directly now, and in the future.  Dial 2 if you wish to send this caller to voicemail now and forevermore.  Dial 3 to send this caller to the torture menus, now and forevermore.  Dial 4 to send this caller to a polite "don't call" menu, now and forevermore.  Dial 5 to allow this caller to come straight thru to you in the future, but just this once, send them to voicemail.
-priv-callpending: I have a caller waiting, who introduces themselves as:
-priv-introsaved: Thank you. Please hold, while I attempt to connect you with your party!
-priv-recordintro: At the tone, please say your name.
-queue-callswaiting: Waiting to speak with a representative
-queue-holdtime: The estimated hold time is currently
-queue-less-than: less than
-queue-minute: minute
-queue-minutes: minutes
-queue-periodic-announce: All of our represenatives are currently busy. Please stay on the line and your call will be answered by the next available representative.
-queue-quantity1: Currently, there are more than ...
-queue-quantity2: ... callers waiting to speak with a representative.
-queue-reporthold: Hold time
-queue-seconds: Seconds
-queue-thankyou: Thank you for your patience
-queue-thereare: You are currently caller number
-queue-youarenext: Your call is now first in line and will be answered by the next available representative.
-screen-callee-options: You have these options: Dial 1 if you wish to immediately connect to the incoming call.  Dial 2 if you wish to send this caller to voicemail.  Dial 3 to send this caller to the torture menus.  Dial 4 to send this caller to a polite "don't call" menu.
-seconds: seconds
-silence/10: (10 seconds of silence)
+letters/x: Дабл Ю
+letters/y: Уай
+letters/zed: ЗэД
+letters/z: Зэт
+minutes: Минут
+pbx-invalidpark: Извините, припаркованный вызов по данному номеру не найден
+pbx-invalid: Извините, данный номер не существует. Пожалуйста, попробуйте еще раз.
+pbx-parkingfailed: Попытка припарковать звонок не удалась
+pbx-transfer: Перевод
+phonetic/9_p: Девятый
+phonetic/a_p: Альфа
+phonetic/b_p: Браво
+phonetic/c_p: Чарли
+phonetic/d_p: Дэльта
+phonetic/e_p: Эхо
+phonetic/f_p: Фокстрот
+phonetic/g_p: Гольф
+phonetic/h_p: Отель
+phonetic/i_p: Индия
+phonetic/j_p: Джульетта
+phonetic/k_p: Кило
+phonetic/l_p: Лима
+phonetic/m_p: Майк
+phonetic/n_p: Ноябрь
+phonetic/o_p: Оскар
+phonetic/p_p: Папа
+phonetic/q_p: Квебек
+phonetic/r_p: Ромео
+phonetic/s_p: Съерра
+phonetic/t_p: Танго
+phonetic/u_p: Униформа
+phonetic/v_p: Виктор
+phonetic/w_p: Виски
+phonetic/x_p: Рентген
+phonetic/y_p: Янки
+phonetic/z_p: Зулу
+privacy-incorrect: Извините, это неверный номер.
+privacy-prompt: Введите ваш номер телефона, начиная с кода территории.
+privacy-thankyou: Спасибо.
+privacy-unident: Набранный вами абонент не отвечает на звонки с неопределяемыми номерами.
+priv-callee-options: Нажмите 1, если вы хотите, чтобы этот звонящий абонент связался с вами прямо сейчас и всегда в дальнейшем. Нажмите 2, если вы хотите, чтобы этот звонящий абонент переключился на голосовую почту прямо сейчас и всегда в дальнейшем. Нажмите 3, чтобы переключить этого звонящего абонента в кольцевое меню прямо сейчас и всегда в дальнейшем. Нажмите 4, чтобы переключить этого звонящего абонента в меню вежливого отказа принять звонок прямо сейчас и всегда в дальнейшем. Нажмите 5, чтобы этот звонящий абонент переключился непосредственно на вас в дальнейшем, но в данный момент переключился на голосовую почту.
+priv-callpending: На линии ожидает абонент, который представился как…
+priv-introsaved: Спасибо. Оставайтесь на линии. Происходит соединение с абонентом.
+priv-recordintro: Пожалуйста, представьтесь.
+queue-callswaiting: ожидайте пожалуйста ответа оператора
+queue-holdtime: прогнозируемое время ожидания составляет 
+queue-less-than: менее 
+queue-minutes: минут
+queue-minute: минута
+queue-periodic-announce: Все наши операторы заняты. Пожалуйста, оставайтесь на линии, и Ваш звонок будет обслужен первым доступным оператором. 
+queue-quantity1: На данный момент более чем...
+queue-quantity2: …ожидающих ответа представителя
+queue-reporthold: время ожидания
+queue-seconds: секунд
+queue-thankyou: благодарим за терпение.
+queue-thereare: Ваша позиция в очереди
+queue-youarenext: Ваш звонок является первым в очереди и будет обслужен первым доступным оператором.
+screen-callee-options: Вам доступны следующие функции. Нажмите 1, чтобы незамедлительно ответить на этот вызов. Нажмите 2, если вы хотите, чтобы этот звонящий абонент переключился на голосовую почту. Нажмите 3, чтобы переключить этого звонящего абонента в кольцевое меню. Нажмите 4, чтобы переключить этого звонящего абонента в меню вежливого отказа принять звонок.
+seconds: секунд
 silence/1: (1 second of silence)
 silence/2: (2 seconds of silence)
 silence/3: (3 seconds of silence)
@@ -315,140 +316,147 @@ silence/6: (6 seconds of silence)
 silence/7: (7 seconds of silence)
 silence/8: (8 seconds of silence)
 silence/9: (9 seconds of silence)
-spy-agent: Agent
-spy-console: Console
-spy-dahdi: DAHDI
-spy-h323: H.323
-spy-iax2: IAX (note: does not say "2")
-spy-iax: IAX
-spy-jingle: Jingle
-spy-local: Local
-spy-mgcp: MGCP
-spy-misdn: M I S D N
-spy-mobile: Bluetooth Mobile
-spy-nbs: N B S
-spy-sip: SIP
-spy-skinny: Skinny
-spy-unistim: Unistim
-spy-usbradio: USB Radio
-spy-zap: Zap
-ss-noservice: The number you have dialed is not in service. Please check the number and try again.
-transfer: Please hold while I try that extension.
-tt-allbusy: All representatives of the household are currently assisting other telemarketers.  Please hold and your call will be answered in the order it was received.
-tt-monkeysintro: They have been carried away by monkeys
+silence/10: (10 seconds of silence)
+spy-agent: Агент
+spy-console: Консоль
+spy-dahdi: Д А Х Д И
+spy-h323: аш-323
+spy-iax2: ИАКС
+spy-iax: ИАКС
+spy-jingle: Джингл
+spy-local: Локальный
+spy-mgcp: МГЦП
+spy-misdn: Эм Ай Эс Ди Эн
+spy-mobile: Блютус Мобайл
+spy-nbs: Эн Би Эс
+spy-sip: СИП
+spy-skinny: Скинни
+spy-unistim: Юнистим
+spy-usbradio: ЮСБ радио
+spy-zap: Зап
+ss-noservice: Набранный вами номер отключён. Проверьте номер и повторите попытку.
+transfer: ожидайте, пожалуйста, соединения
+tt-allbusy: В данный момент все операторы заняты. Пожалуйста, оставайтесь на линии - ваш вызов будет принят в порядке очереди.
+tt-monkeysintro: Их унесли мартышки
 tt-monkeys: [sound of monkeys screaming]
-tt-somethingwrong: Something is terribly wrong
-tt-weasels: Weasels have eaten our phone system
-vm-advopts: press 3 for advanced options
-vm-and: and
-vm-calldiffnum: press 2 to enter a different number
-vm-changeto: Change to which folder?
-vm-Cust1: folder 5
-vm-Cust2: folder 6
-vm-Cust3: folder 7
-vm-Cust4: folder 8
-vm-Cust5: folder 9
-vm-deleted: Message deleted.
-vm-delete: Press 7 to delete this message.
-vm-dialout: please wait while i connect your call
-vm-duration: This message lasts ...
-vm-enter-num-to-call: please enter the number you wish to call
-vm-extension: extension
-vm-Family: family
-vm-first: first
-vm-for: for
-vm-forward-multiple: press 1 to send this message, or 2 to add another recipient.
-vm-forwardoptions: press 1 to prepend a message or 2 to forward the message without prepending
-vm-forward: Press 1 to enter an extension, press 2 to use the directory
-vm-Friends: friends
-vm-from-extension: message from extension
-vm-from: from
-vm-from-phonenumber: message from phone number
-vm-goodbye: Goodbye
-vm-helpexit: Press star for help or pound to exit.
-vm-INBOX: new
-vm-incorrect: Login incorrect.
-vm-incorrect-mailbox: Login incorrect.  Mailbox?
-vm-instructions: To look into your messages press 1 now.  You may quit voicemail at any time by pressing the pound key.
-vm-intro: Please leave your message after the tone.  When done hang up or press the pound key. (simple tone sound plays)
-vm-invalidpassword: That is not a valid password.  Please try again.
-vm-invalid-password: That password does not meet the minimum requirements for this mailbox.  Please try again.
-vm-isonphone: is on the phone
-vm-isunavail: is unavailable
-vm-last: last
-vm-leavemsg:  Press 5 to leave a message
-vm-login: Comedian Mail.  Mailbox?
-vm-mailboxfull: sorry but the user's mail box can't accept more messages
-vm-marked-nonurgent: Urgent status removed.
-vm-marked-urgent: Message marked urgent.
-vm-message: message
-vm-messages: messages
-vm-minutes: minutes
-vm-mismatch: The passwords you entered and re-entered did not match.  Please try again.
-vm-msginstruct: To hear the next message press 6, to repeat this message press 5, to hear the previous message press 4, to delete or undelete this message press zero, to quit voicemail press pound.
-vm-msgsaved: Your message has been saved.
-vm-newpassword: Please enter your new password followed by the pound key.
-vm-newuser: Welcome to Comedian Mail. First, I will guide you through a short setup process.
-vm-next: Press 6 to play the next message.
-vm-nobodyavail: Nobody is available to take your call at the moment
-vm-nobox: you cannot reply to this message because the sender does not have a mailbox
-vm-nomore: No more messages.
-vm-no: no
-vm-nonumber: i'm afraid i don't know who sent this message
-vm-num-i-have: the number i have is
-vm-Old: old
-vm-onefor-full: Press one to listen to ...
-vm-onefor: Press 1 for
-vm-options: Press 1 to record your unavailable message, press 2 to record your busy message, press 3 to record your name, press 4 to record your temporary greeting, press 5 to change your password, press star to return to the main menu.
-vm-opts-full: press 2 to access messages saved in other folders.  Press 3 to record a message for another mailbox.  Press 0 for greetings and password management.
-vm-opts: Press 2 to change folders, press 3 for advanced options, press zero for mailbox options.
-vm-passchanged: Your passwords have been changed.
-vm-password: password
-vm-pls-try-again: please try again
-vm-press: press
-vm-prev: Press 4 for the previous message
-vm-reachoper: press 0 to reach an operator
-vm-rec-busy: After the tone say your busy message and then press the pound key.
-vm-received: received
-vm-rec-name: After the tone say your name and then press the pound key.
-vm-record-prepend: At the tone, please record an introduction to the forwarded message.  When done, press the pound sign.
-vm-rec-temp: After the tone, say your temporary message, and then press the pound key.
-vm-rec-unv: After the tone say your unavailable message and then press the pound key.
-vm-reenterpassword: Please re-enter your password followed by the pound key.
-vm-repeat: Press 5 to repeat the current message.
-vm-review-nonurgent: Press 4 to remove the urgent status of this message.
-vm-review: press 1 to accept this recording press 2 to listen to it press 3 to rerecord your message
-vm-review-urgent: Press 4 to mark this message as urgent.
-vm-saved: saved
-vm-savedto: saved to
-vm-savefolder: Which folder should I save the message to?
-vm-savemessage: or 9 to save this message
-vm-saveoper: press 1 to accept this recording, otherwise, please continue to hold
-vm-sorry: I'm sorry I did not understand your response.
-vm-star-cancel: press star to cancel
-vm-starmain: press star to return to the main menu
-vm-tempgreetactive: Your temporary greeting is currently active
-vm-tempgreeting2: press 1 to record your temporary greeting, or press 2 to erase your temporary greeting
-vm-tempgreeting: press 1 to record your temporary greeting
-vm-tempremoved: Your temporary greeting has been removed
-vm-then-pound: then press pound
-vm-theperson: The person at extension
-vm-tmpexists: There is a temporary greeting, which overrides your standard greetings.
-vm-tocallback: press 2 to call the person who sent this message
-vm-tocallnum: press 1 to call this number
-vm-tocancelmsg: press star to cancel this message
-vm-tocancel: or pound to cancel.
-vm-toenternumber: press 1 to enter a number
-vm-toforward: Press 8 to forward the message to another user
-vm-tohearenv: press 3 to hear the message envelope
-vm-tomakecall: press 4 to place an outgoing call
-vm-tooshort: your message is too short 
-vm-toreply: press 1 to send a reply
-vm-torerecord: press 3 to rerecord your message
-vm-undeleted: Message undeleted.
-vm-undelete: Press 7 to undelete this message
-vm-unknown-caller: from an unknown caller
-vm-Urgent: urgent
-vm-whichbox: To leave a message, please enter a mailbox number.
-vm-Work: work
-vm-youhave: you have
+tt-somethingwrong: Что-то тут совсем не так...
+tt-weasels: Нашу телефонную систему съели совы
+vm-Cust1: Директория пять.
+vm-Cust2: Директория шесть.
+vm-Cust3: Директория семь.
+vm-Cust4: Директория  восемь.
+vm-Cust5: Директория  девять.
+vm-Family: семейных
+vm-Friends: дружеских
+vm-INBOX: новых
+vm-Old: старых
+vm-Urgent: Важных сообщений 
+vm-Work: Рабочих
+vm-advopts: Нажмите три для расширенных настроек.
+vm-and: и
+vm-calldiffnum: Нажмите 2 для ввода другого номера.
+vm-changeto: Сменить на какую директорию?
+vm-deleted: Сообщение удалено.
+vm-delete: Нажмите 7 для удаления этого сообщения.
+vm-dialout: Пожалуйста, подождите. Происходит соединение.
+vm-duration: Продолжительность сообщения
+vm-enter-num-to-call: Введите номер назначения.
+vm-extension: Внутренний номер?
+vm-first: первoe
+vm-forwardoptions: Нажмите 1, чтобы прокомментировать и переслать это  сообщение, или 2 для пересылки этого сообщения без комментария.
+vm-forward-multiple: pНажмите 1, чтобы отправить сообщение. Или нажмите 2, чтобы добавить ещё одного получателя
+vm-forward: Нажмите 1, чтобы ввести номер. Или нажмите 2, чтобы воспользоваться справочником
+vm-for: для
+vm-from-extension: Сообщение от абонента…
+vm-from-phonenumber: Сообщение от абонента с номером…
+vm-from: От
+vm-goodbye: До свидания 
+vm-helpexit: Нажмите звездочку для получения помощи или решетку для выхода.
+vm-incorrect-mailbox: Логин неверен. Введите номер абонента еще раз.
+vm-incorrect: Неверный пароль.
+vm-instructions: Для прослушивания сообщений нажмите 1.  Для выхода из голосового ящика в любое время нажмите решетку 
+vm-intro: Оставьте сообщение после сигнала. После этого  нажмите решетку или повесьте трубку.
+vm-invalidpassword: Это неверный пароль. Пожалуйста, попробуйте еще раз
+vm-invalid-password: Этот пароль не соответствует минимальным требованиям  для данного ящика
+vm-isonphone: занят
+vm-isunavail: недоступен
+vm-last: последнее
+vm-leavemsg:  нажмите пять, чтобы оставить голосовое сообщение
+vm-login: Голосовая почта. Номер абонента? 
+vm-mailboxfull: Извините, но голосовой ящик абонента  переполнен.
+vm-marked-nonurgent: Статус «важно» убран
+vm-marked-urgent: Сообщение помечено, как важное
+vm-messages: сообщений
+vm-messagex1: сообщения
+vm-messagex2: сообщений
+vm-message: сообщение
+vm-minutes: минут
+vm-mismatch: Введенные пароли не совпадают. Пожалуйста, введите пароли еще раз.
+vm-msginstruct: Для прослушивания следующего сообщения нажмите 6. Для повторного прослушивания сообщения нажмите 5. Для прослушивания предыдущего сообщения нажмите 4. Для удаления или восстановления сообщения нажмите 0. Для выхода из голосовой почты нажмите решетку. 
+vm-msgsaved: Сообщение сохранено. 
+vm-newn: новое
+vm-newpassword: Введите новый пароль и нажмите решетку. 
+vm-newuser: Добро пожаловать в голосовую почту! Для начала прослушайте инструкцию по настройке ящика.
+vm-newx: новых
+vm-next: Нажмите 6 для прослушивания следующего сообщения.
+vm-nobodyavail: В данный момент никто не может принять Ваш звонок.
+vm-nobox: Вы не можете ответить на это сообщение, так как отправитель не имеет ящика голосовой почты.
+vm-nomore: Больше сообщений нет.
+vm-nonumber: К сожалению, отправитель сообщения не известен.
+vm-no: нет
+vm-num-i-have: Записан следующий номер.
+vm-oldn: старое
+vm-oldx: старых
+vm-onefor-full: Нажмите 1, чтобы прослушать...
+vm-onefor: Нажмите 1 для
+vm-options:Нажмите 1 для записи Вашего сообщения при статусе «недоступен». Нажмите 2 для записи Вашего сообщения при статусе «занято». Нажмите 3 для записи Вашего имени. Нажмите 4 для записи временного сообщения. Нажмите 5 для смены пароля или звездочку для возврата в главное меню.
+vm-opts-full: Нажмите 2, чтобы прослушать сообщения из другой папки, нажмите 3, чтобы записать сообщение для другого ящика, нажмите 0 для управления паролями и приветствиями
+vm-opts: Нажмите 2 для смены директории. Нажмите 3 для расширенных настроек. Нажмите 0 для настроек голосовой почты.
+vm-passchanged: Пароль сменен. 
+vm-password: Пароль
+vm-pls-try-again: Пожалуйста, попробуйте еще раз
+vm-press: Нажмите
+vm-prev: Нажмите 4 для предыдущего сообщения.
+vm-reachoper: Нажмите 0 для связи с оператором.
+vm-received: получено
+vm-record-prepend: После сигнала запишите вступление для пересылаемого сообщения. В конце сообщения нажмите решетку.
+vm-rec-busy: После сигнала произнесите свое сообщение при статусе «занято» и  нажмите решетку. 
+vm-rec-name: После сигнала произнесите свое имя и нажмите решетку.
+vm-rec-temp: После сигнала произнесите ваше временное сообщение и нажмите решетку
+vm-rec-unv: После сигнала произнесите свое сообщение при статусе недоступен и нажмите решетку
+vm-reenterpassword: Введите пароль и нажмите решетку.
+vm-repeat: Нажмите 5 для повтора текущего сообщения. 
+vm-review-nonurgent: Нажмите 4, чтобы убрать пометку (статус) «важно» с этого сообщения
+vm-review-urgent:Нажмите 4, чтобы пометить это сообщение как важное
+vm-review: Нажмите один, чтобы принять сообщение, два - чтобы его прослушать или три, чтобы записать его заново
+vm-savedto: Сохранено в
+vm-saved: Сохранено
+vm-savefolder: В какой директории сохранить сообщение?
+vm-savemessage: или 9 для сохранения сообщения.
+vm-saveoper: Нажмите 1, чтобы принять эту запись. Или просто оставайтесь на линии.
+vm-sorry: Извините, Ваш выбор не понят системой. 
+vm-starmain: нажмите звездочку чтобы вернуться в главное меню
+vm-star-cancel: Нажмите клавишу «взёздочка» для отмены.
+vm-tempgreetactive: Ваше временное приветствие установлено.
+vm-tempgreeting2: нажмите один что бы перезаписать ваше временное сообщение или 2 чтобы его удалить
+vm-tempgreeting: нажмите один для записи временного приветствия.
+vm-tempremoved: ваше временное сообщение удалено
+vm-then-pound: после чего нажмите «решетку»
+vm-theperson: абонент с номером 
+vm-tmpexists: активировано временное сообщение, которое заменяет ваши стандартные сообщения
+vm-tocallback: Нажмите 2, чтобы позвонить абоненту, который оставил это сообщение.
+vm-tocallnum: Нажмите 1, чтобы позвонить по этому номеру.
+vm-tocancelmsg:Нажмите клавишу «звёздочка» для отмены сообщения.
+vm-tocancel: или решетку для отмены.
+vm-toenternumber: Нажмите 1 для ввода номера.
+vm-toforward: Нажмите 8 для пересылки этого сообщения другому абоненту. 
+vm-tohearenv: Нажмите 3 для прослушивания информации о сообщении.
+vm-tomakecall: нажмите четыре, чтобы сделать исходящий звонок
+vm-tooshort: Ваше сообщение слишком короткое.
+vm-toreply: Нажмите 1 для отправки ответа.
+vm-torerecord: Нажмите 3 для перезаписи сообщения.
+vm-undeleted: Сообщение восстановлено.
+vm-undelete: Нажмите 7 для восстановления этого сообщения. 
+vm-unknown-caller: От неизвестного абонента.
+vm-whichbox: Чтобы оставить сообщение, введите номер абонента. 
+vm-youhave: У вас
